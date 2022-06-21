@@ -14,7 +14,7 @@ public class RaadController {
     public int num(){
         return 4;
     }
-    public int h(){
-        return 7;
+    public String Austria(){
+        return "Vienna";
     }
 }
