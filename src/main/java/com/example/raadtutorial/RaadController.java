@@ -9,4 +9,9 @@ public class RaadController {
     public String hello() {
         return "Helo";
     }
+
+    @RequestMapping("/random")
+    public int num(){
+        return 5;
+    }
 }
