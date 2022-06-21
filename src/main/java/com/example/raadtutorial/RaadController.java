@@ -12,6 +12,6 @@ public class RaadController {
 
     @RequestMapping("/random")
     public int num(){
-        return 5;
+        return 4;
     }
 }
