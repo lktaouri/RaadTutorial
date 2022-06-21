@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RaadController {
     @RequestMapping("/Hello")
-    public String hello(){
-        return "Hello";
+    public String hello() {
+        return "Helo";
     }
 }
